@@ -21,7 +21,7 @@ const InputField = ({ todo, setTodo, handleAdd }: Props) => {
                 onChange={(e) => setTodo(e.target.value)}
                 type="input"
                 placeholder="Enter your task here" className="input__box" />
-            <button type="submit" className="input__submit">Go</button>
+            <button type="submit" className="input_submit">Go</button>
         </form>
     )
 }
